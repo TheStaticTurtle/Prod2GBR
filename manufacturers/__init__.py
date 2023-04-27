@@ -1,7 +1,9 @@
 from .PCBWay import PCBWay
+from .JLCPCB import JLCPCB
 
 manufacturers = {
     PCBWay.NAME.lower(): PCBWay,
+    JLCPCB.NAME.lower(): JLCPCB,
 }
 
 manufacturers_list = list(manufacturers.keys())
